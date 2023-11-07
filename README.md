@@ -107,10 +107,10 @@ $ make install clean
 
 # 添加环境变量
 # 编辑 .bashrc 文件，添加：
-$ export PATH=/path/to/installation/directory/bin:$PATH
+export PATH=/home/kay/tools/riscv-gnu-toolchain/bin:$PATH
 
 # 刷新
-$ source ./barshrc
+$ source ./.bashrc
 ```
 
 ### 安装 cargo-binutils  工具集
