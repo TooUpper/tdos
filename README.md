@@ -145,12 +145,19 @@ $ make install clean
 $ export PATH=/path/to/installation/directory/bin:$PATH
 
 # 刷新
-source ./barshrc
+$ source ./barshrc
 ```
 
 ### 安装 cargo-binutils  工具集
 
-```rust
+```shell
 $ cargo install cargo-binutils
 $ rustup component add llvm-tools-preview
+```
+## run our project
+```shell
+$ git clone git@github.com:TooUpper/tdos.git
+$ cd tdos/os
+$ make run
+
 ```
