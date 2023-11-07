@@ -159,5 +159,4 @@ $ rustup component add llvm-tools-preview
 $ git clone git@github.com:TooUpper/tdos.git
 $ cd tdos/os
 $ make run
-
 ```
