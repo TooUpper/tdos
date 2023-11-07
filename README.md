@@ -80,12 +80,16 @@
    $ sudo pacman -S qemu
    ```
    第一个提示中提示中选择`3`，第二个提示默认`1`即可。
+
 2. 确认 QEMU 的版本
    ```rust
    $ qemu-system-riscv64 --version
    $ qemu-riscv64 --version
    ```
-3. 在 [GitHub](https://github.com/rustsbi/rustsbi-qemu/releases/download/Unreleased/rustsbi-qemu-debug.gz) 上下载最新的 rustsbi-qemu-bin 文件
+
+3. 在 [GitHub](https://github.com/rustsbi/rustsbi-qemu/releases/download/Unreleased/rustsbi-qemu-debug.gz) 上下载最新的 rustsbi-qemu-bin 文件（如果 `make run` 正常运行则可忽略这一步）
+
+   这里下载好之后替换掉本项目`/bootloader`目录下的`rustsbi-qemu-bin`即可。
 
 ### 安装 RISCV 工具集
 ```shell
